@@ -14,7 +14,7 @@ if (close) {
         nav.classList.remove('active');
     })
 }
-document.getElementById('checkout').addEventListener("click", function(){ alert("Your are redirecting to new page......"); });
+document.getElementById('checkout').addEventListener("click", function(){ alert("You are been redirecting to a new page"); });
 document.getElementById('checkout').addEventListener("click", redirect);
 function redirect(){ window.location = "./GreenTick.html"; }
 
